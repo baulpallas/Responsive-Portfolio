@@ -480,7 +480,7 @@ body {
     text-align: center;
   }
 }
-
+/* Small Display */
 @media screen and (max-width: 640px) {
   body {
     width: 100%;
@@ -509,18 +509,25 @@ body {
     text-align: center;
     font-family: "Georgia", Times, "Times New Roman", serif;
   }
-
+  .nav-container {
+    justify-content: center; 
+    width: 100%; 
+    padding: 90px 0px 20px 0px;  
+    border-bottom: 2px solid #dddddd;
+  
+  }
   .nav {
     background-color: white;
-    width: 33.334%;
-    padding: 35px 0px 20px 0px;
-    float: left;
+    padding: 10px 30px 15px 30px;
+    flex: none; 
+    align-items: center;
+    text-align: center;  
     color: grey;
     text-decoration: inherit;
     font-family: "Georgia", Times, "Times New Roman", serif;
-    border-bottom: 2px solid #dddddd;
+    float: none; 
   }
-
+/*  About Me*/
   .aboutme-container {
     background-color: white;
     width: 80%;
@@ -535,7 +542,7 @@ body {
     display: inline-block;
     margin: 20px;
   }
-
+/* Contact */
   .contact-container {
     background-color: white;
     width: 80%;
@@ -551,7 +558,7 @@ body {
     margin: 20px;
     text-align: left;
   }
-
+/* Portfolio */
   .portfolio-container {
     background-color: white;
     width: 80%;
